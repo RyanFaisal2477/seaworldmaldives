@@ -1,0 +1,563 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.hero-div {
+    padding: 20px;
+    width: 100%;
+    height: 35rem;
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.nav-links {
+    display: none;
+}
+
+.hero-heading {
+    margin-bottom: 5%;
+    margin-top: 15rem;
+    font-size: 2rem;
+}
+
+.cta {
+    text-decoration: none;
+    color: white;
+    background-color: #C69C6D;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.pack {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.stats-count {
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+.counter-01{
+    float: left;
+    margin: 3.5%;
+    padding: 3.5%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.counter-02{
+    float: left;
+    border-left: 5px black;
+    border-right: 1px black;
+    margin: 3.5%;
+    padding: 3.5%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.counter-03{
+    float: left;
+    margin: 3.5%;
+    padding: 3.5%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.about-mini {
+    width: 100%;
+    padding: 5%;
+}
+
+.abt-txt-mini {
+    font-size: 2rem;
+    text-justify: auto;
+    margin-bottom: 50px;
+}
+
+.cta-about {
+    text-decoration: none;
+    color: white;
+    background-color: #C69C6D;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.tour-01 {
+    background-image: url(../img/tour-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+
+.tour-02 {
+    background-image: url(../img/tour-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+
+.tour-03 {
+    background-image: url(../img/tour-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50rem;
+}
+
+.footer-content {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.footer-p {
+    margin-top: 1rem;
+}
+
+.foooter-a {
+    display: block;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.site-map {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    width: 100%;
+    height: 2rem;
+    background-color: #C69C6D;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+.tour-head {
+    padding: 5%;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: white;
+    background-color: #C69C6D;
+    padding: 10px;
+    margin-top: 6rem;
+}
+
+.cta-reserv {
+    width: 100%;
+    height: 13rem;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    background-image: url(../img/tour-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-container {
+    padding: 2rem;
+}
+
+.call {
+    margin-bottom: 5%;
+}
+
+.desktop-gallery {
+    display: none;
+}
+
+.card-container {
+    margin-left: 5.5%;
+}
+
+.splash {
+    z-index: 1000;
+    width: 100%;
+    height: 200rem;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+}
+
+.splash-heading {
+    padding-top: 100%;
+    font-size: 50px;
+}
+
+
+.album {
+    margin-left: 5%;
+}
+.album .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .album .responsive-container-block.bg {
+    max-width: 1320px;
+    margin: 0 0 0 0;
+    justify-content: space-between;
+  }
+  
+  .album .img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  
+  .album #i9rb {
+    color: black;
+  }
+  
+  .album #ir6i {
+    color: black;
+  }
+  
+  .album #ikz3b {
+    color: black;
+  }
+  
+  .album .responsive-container-block.img-cont {
+    flex-direction: column;
+    max-width: 33.3%;
+    min-height: auto;
+    margin: 0 0 0 0;
+    height: 100%;
+  }
+  
+  .album #ipix {
+    color: black;
+  }
+  
+  .album #ipzoh {
+    color: black;
+  }
+  
+  .album #ig5q8 {
+    color: black;
+  }
+  
+  .album #imtzl {
+    color: black;
+  }
+  
+  .album #i53es {
+    color: black;
+  }
+  
+  .album .img.img-big {
+    height: 50%;
+    margin: 0 0 16px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .album .img {
+      margin: 0 0 18px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .album .img {
+      max-width: 32.5%;
+      margin: 0 0 0 0;
+    }
+  
+    .album .responsive-container-block.bg {
+      flex-direction: column;
+    }
+  
+    .album .responsive-container-block.img-cont {
+      max-width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .album .img.img-big {
+      max-width: 49%;
+      margin: 0 0 0 0;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .album .img {
+      max-width: 94%;
+      margin: 0 0 25px 0;
+    }
+  
+    .album .responsive-container-block.img-cont {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 10px 10px 10px;
+    }
+  
+    .album .img.img-big {
+      max-width: 94%;
+      margin: 0 0 25px 0;
+    }
+  
+    .album .img.img-last {
+      margin: 0 0 5px 0;
+    }
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .counter-01 {
+        padding-left: 8%;
+        font-size: 20px;
+    }
+
+    .counter-02 {
+        padding-left: 7%;
+        font-size: 20px;
+    }
+
+    .counter-03 {
+        padding-left: 7%;
+        font-size: 20px;
+    }
+
+    .nav-links {
+        display: inline;
+        padding-left: 5%;
+        margin-top: 100px;
+    }
+
+    .about-mini {
+        margin-top: 2%;
+    }
+
+    .hero-heading {
+        font-size: xx-large;
+    }
+
+    .cta {
+        padding: 15px;
+    }
+
+    .cta-about {
+        padding: 15px;
+    }
+
+    .call {
+        margin-top: 5%;
+    }
+
+    .copyright {
+        height: 4rem;
+    }
+
+    .copyright-text {
+        font-size: 25px;
+        padding: 1%;
+    }
+
+    .footer-content {
+        font-size: 25px;
+    }
+
+    .foooter-a {
+        font-size: 20px;
+    }
+
+    .tour-head {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .tour-01 {
+        display: none;
+    }
+
+    .tour-02 {
+        display: none;
+    }
+
+    .tour-03 {
+        display: none;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .counter-01 {
+        padding-left: 8%;
+        font-size: 25px;
+    }
+
+    .counter-02 {
+        padding-left: 7%;
+        font-size: 25px;
+    }
+
+    .counter-03 {
+        padding-left: 7%;
+        font-size: 25px;
+    }
+
+    .about-mini {
+        margin-top: 8%;
+    }
+
+    .call {
+        margin-top: 2%;
+        font-size: 30px;
+    }
+
+    .cta-button {
+        font-size: 25px;
+    }
+
+    .hero-heading {
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .hero-div {
+        height: 50rem;
+        text-align: center;
+    }
+
+    .counter-01 {
+        padding-left: 14%;
+        font-size: 25px;
+    }
+
+    .counter-02 {
+        padding-left: 7%;
+        font-size: 25px;
+    }
+
+    .counter-03 {
+        padding-left: 7%;
+        font-size: 25px;
+    }
+
+    .nav-bar {
+        color: white;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .nav-links {
+        color: white;
+    }
+
+    .nav-links:hover {
+        text-decoration: underline #C69C6D;
+    }
+
+    .hero-heading {
+        margin-top: 16%;
+    }
+
+    .cta {
+    }
+
+    .footer-heading {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .footer-p {
+        font-size: 15px;
+        text-align: left;
+        width: 40%;
+    }
+
+    .footer-links {
+        float: inline-start;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 1rem;
+    }
+
+    .footer-a {
+        font-size: 10px;
+    }
+
+    .copyright {
+        margin-top: 300px;
+        height: 50px;
+    }
+
+    .copyright-text {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+
+    .cta-reserv {
+        height: 350px;
+    }
+
+    .call {
+        margin-top: 5%;
+    }
+
+    .about-mini {
+        text-align: center;
+    }
+
+    .abt-txt-mini {
+        font-size: 20px;
+    }
+
+    .counter-items {
+        border-left: 2px black;
+        border-right: 2px black;
+    }
+
+    .card-01-pic {
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .card-container {
+        display: flex;
+        padding-left: 15%;
+    }
+}

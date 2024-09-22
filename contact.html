@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/about.css">
+    <script>
+        var i = 1;
+        $('.progress .circle').removeClass().addClass('circle');
+        $('.progress .bar').removeClass().addClass('bar');
+        setInterval(function() {
+        $('.progress .circle:nth-of-type(' + i + ')').addClass('active');
+        
+        $('.progress .circle:nth-of-type(' + (i-1) + ')').removeClass('active').addClass('done');
+        
+        $('.progress .circle:nth-of-type(' + (i-1) + ') .label').html('&#10003;');
+        
+        $('.progress .bar:nth-of-type(' + (i-1) + ')').addClass('active');
+        
+        $('.progress .bar:nth-of-type(' + (i-2) + ')').removeClass('active').addClass('done');
+        
+        i++;
+        
+        if (i==0) {
+            $('.progress .bar').removeClass().addClass('bar');
+            $('.progress div.circle').removeClass().addClass('circle');
+            i = 1;
+        }
+        }, 1000);
+    </script>
+    <title>Seaworld Maldives - Contact</title>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-div">
+            <div class="nav-bar">
+                <a href="index.html" class="nav-links">Home</a>
+                <a href="about.html" class="nav-links">Reservations</a>
+                <a href="reservation.html" class="nav-links">About Us</a>
+                <a href="gallery.html" class="nav-links">Gallery</a>
+                <a href="contact.html" class="nav-links">Contact Us</a>
+            </div>
+            <h1 class="hero-heading">Contact Us</h1>
+            <a href="" class="cta">Learn More</a>
+            <a href="" class="pack">Packages</a>
+        </div>
+    </section>
+    <section class="stats-count">
+        <div class="counter-items">
+            <div class="counter-01">
+                <p class="count-01">100</p>
+                <h4 class="customer">Customers</h4>
+            </div>
+            <div class="counter-02">
+                <p class="count-02">50</p>
+                <h4 class="Destination">
+                    Destinations
+                </h4>
+            </div>
+            <div class="counter-03">
+                <p class="count-03">10</p>
+                <h4 class="Tours">
+                    Tour Completed
+                </h4>
+            </div>
+        </div>
+    </section>
+    <section class="about-mini">
+        <h3 class="about-heading">
+            If you have any inquery about our packages, please reach out using the form below.
+        </h3>
+        <p class="abt-txt-mini">
+            Welcome to Seaworld Maldives Pvt Ltd. We are a local travel agency and we can help curate the perfect travel vacation in the picturesque country of the Maldives. Make your reservation and come join us in the Maldives.
+        </p>
+        <a href="" class="cta-about">View Packages</a>
+    </section>
+    <div class="progress">
+        <div class="circle done">
+          <span class="label">1</span>
+          <span class="title">Personal</span>
+        </div>
+        <span class="bar done"></span>
+        <div class="circle done">
+          <span class="label">2</span>
+          <span class="title">Query</span>
+        </div>
+        <span class="bar half"></span>
+        <div class="circle active">
+          <span class="label">3</span>
+          <span class="title">Details</span>
+        </div>
+        <span class="bar"></span>
+        <div class="circle">
+          <span class="label">4</span>
+          <span class="title">Review</span>
+        </div>
+        <span class="bar"></span>
+        <div class="circle">
+          <span class="label">5</span>
+          <span class="title">Finish</span>
+        </div>
+      </div>
+      <section class="form-container">
+        <div class="container"></div>
+        <form action="" id="form">
+            <div class="column one">
+                <div class="field username">
+                    <label for="Username_">First Name</label>
+                    <input type="text" name="Username" id="Username_" placeholder="type your name in english only" required>
+                </div>
+                <div class="field password">
+                    <label for="Password_">Last Name</label>
+                    <input type="password" name="password" id="Password_" placeholder="type a complex password" required>
+                </div>
+                <div class="field email">
+                    <label for="Email_">email</label>
+                    <input type="email" name="email" id="Email_"  placeholder="type a valid email" required>
+                </div>
+            </div>
+            <div class="column two">
+                <div class="field phone">
+                    <label for="Phone_">phone</label>
+                    <input type="tel" name="phone" id="Phone_">
+                </div>
+                <div class="field Brief">
+                    <label for="Brief_">Special Notes</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Reserve" class="register">
+        </form>
+    </div>
+      </section>
+    <section class="cta-reserv">
+        <div class="cta-container">
+            <h2 class="call">Lets make your holiday the perfect holiday</h2>
+            <a href="reservation.html" class="cta-button">Reserve Now</a>
+        </div>
+    </section>
+    <section class="Brands we Work with"></section>
+    <section class="Footer">
+        <div class="footer-content">
+            <h2 class="footer-heading">Seaworld Maldives</h2>
+            <p class="footer-p">Seaworld Maldives is a local travel agency, based in the Maldives. We help customers around the globe experience the perfect vacation in the Maldives.</p>
+        </div>
+        <div class="footer-links">
+            <h4 class="site-map">Site Map</h4>
+            <a href="index.html" class="foooter-a">Home</a>
+            <a href="about.html" class="foooter-a">About</a>
+            <a href="reservation.html" class="foooter-a">Reservations</a>
+            <a href="gallery.html" class="foooter-a">Gallery</a>
+            <a href="contact.html" class="foooter-a">Contact</a>
+        </div>
+        <div class="footer-links">
+            <h4 class="site-map">usefull links</h4>
+            <a href="index.html" class="foooter-a">Terms and Condition</a>
+            <a href="about.html" class="foooter-a">Privacy Policy</a>
+            <a href="reservation.html" class="foooter-a">Maldives Travel Handbook</a>
+        </div>
+        <div class="copyright">
+            <p class="copyright-text">Copyright 2024 Seaworld Maldives Pvt Ltd</p>
+        </div>
+    </section>
+</body>
+</html>
